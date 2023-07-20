@@ -124,6 +124,14 @@
     color: #464646;
 }
 
+.icon {
+    display:flex;
+    align-items:center;
+}
+.github {
+    height:35px;
+}
+
 @media (max-width:700px) {
     .footer-lado-esquerdo {
         min-width:200px;
