@@ -77,12 +77,16 @@ a {
 }
 
 @media (max-width:550px) {
+    header {
+        padding:20px 10px;
+    }
     .ajuste-barra-pesquisa {
         display:none;
     }
 
     .lado-esquerdo a img{
-        width:100px;
+        width:120px;
+        height:auto;
     }
 
     .button-login {
@@ -94,7 +98,7 @@ a {
         align-items:center;
         justify-content:space-between;
         width:100%;
-        padding-left:20px;
+        padding-left:10px;
     }
     .lupa {
         display:block;

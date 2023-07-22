@@ -3,8 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Explore um universo geek repleto de aventuras, tecnologia e cultura nerd! 
+    Descubra novos mundos, participe de batalhas épicas e mergulhe na paixão pela fantasia e ficção científica. 
+    Venha fazer parte dessa jornada inesquecível!">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Geek</title>
+    <link rel="icon" type="image/png" href="assets/image/header/logo/alurageek-control.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
@@ -13,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/body.css">
     <link rel="stylesheet" href="assets/css/capa.css">
     <link rel="stylesheet" href="assets/css/produtos.css">
+    <link rel="stylesheet" href="assets/css/barraPesquisa.css">
 
     <link rel="stylesheet" href="assets/css/footer.css">
 </head>
@@ -25,6 +30,7 @@
             </a>
             <div class="ajuste-barra-pesquisa">
                 <input type="text" placeholder="O que deseja encontrar?" class="barra-pesquisa">
+                <ul id="resultadosPesquisa"></ul>
             </div>
         </div>
         <div class="lado-direito">
@@ -32,7 +38,9 @@
                 <button class="button-login">Login</button>
             </a>
             <div class="lupa">
-                <img src="assets/image/header/search/lupa.svg">
+                <button class="botao-lupa">
+                    <img src="assets/image/header/search/lupa.svg">
+                </button>
             </div>
         </div>
     </header>
@@ -132,6 +140,7 @@
     <script type="module" src="assets/controllers/produtos-controllers.js"></script>
     <script type="module" src="assets/services/produtos-services.js"></script>
     <script type="module" src="assets/js/footerFormulario.js"></script>
+    <script src="assets/js/barraPesquisa.js"></script>
 
 </body>
 
