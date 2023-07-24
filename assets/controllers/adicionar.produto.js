@@ -28,3 +28,10 @@ function salvarProduto(event) {
 
 const formAdicionarProduto = document.querySelector(".adicionar-produto-formulario");
 formAdicionarProduto.addEventListener("submit", salvarProduto);
+
+const priceInput = document.querySelector("input[name='price']");
+priceInput.addEventListener("input", function(event) {
+    const cleanedValue = event.target.value.replace(/[^\d.]/g, "");
+
+    event.target.value = cleanedValue;
+});

@@ -27,8 +27,8 @@ function controiCard(imageUrl, name, price, id, alt) {
     <span class="produto-nome">${name}</span>
     <span class="span-bold">R$ ${price}</span>
     <span>ID = ${id}</span>
-    <a class="editar" href="edit.html?id=${id}">Editar</a>
-    <button class="botao-remover">Deletar</button>
+    <a class="editar" href="edit.html?id=${id}"><img src="assets/image/produtos/edicao/lapis.png" class="lapis"></a>
+    <button class="botao-remover"></button>
     `;
 
     return produto;
