@@ -6,7 +6,7 @@ function criaEstrutura() {
 
     mainProduto.innerHTML = `
     <div class="todos-produtos">
-        <div class="titulo titulo-espaço">
+        <div class="titulo titulo-espaco">
             <h3>Todos os produtos</h3>
             <a href="add-products.html">Adicionar produto</a>
         </div>

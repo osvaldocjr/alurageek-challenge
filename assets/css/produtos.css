@@ -38,7 +38,7 @@
     margin-top: 16px;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 15px;
     list-style: none;
 }
 .produtos li {
@@ -47,10 +47,10 @@
     gap: 8px;
 }
 
-.titulo-espaço {
+.titulo-espaco {
     margin:20px 0;
 }
-.titulo-espaço a {
+.titulo-espaco a {
     color:#fff;
     background-color:#2a7ae4;
     padding:18px;
